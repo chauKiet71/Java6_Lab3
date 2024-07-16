@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns="http://www.thymeleaf.org"
+      th:replace="~{/layout/layout::dynamic(~{::body})}" >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<<<<<<< HEAD
+    <h3 th:text="#{home.title}">TRANG CHỦ</h3>
+    <i th:text="#{home.content}">Đây là trang chủ</i>
+=======
+<img th:src="@{/image/img1.jpg}" style="width: 50%">
+<nav th:replace="~{/layout/menu.html}"></nav>
+    <h1 th:text="${message}"></h1>
+<ul th:object="${sv}">
+    <li th:text="*{name}"></li>
+    <li th:text="*{marks}"></li>
+    <li th:text="*{contact.email}"></li>
+</ul>
+>>>>>>> 40db36aab9987a4fbd7f801d870aeafedbbe9a68
+</body>
+</html>

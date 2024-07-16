@@ -1,0 +1,12 @@
+
+{
+  "name": "đỗ thị d",
+  "gender": false,
+  "marks": 8.5,
+  "contact": {
+    "email": "dtd012@gmail.com",
+    "phone": "0945678901",
+    "address": "Cantho"
+  },
+  "subject": ["geo105", "lit303"]
+}

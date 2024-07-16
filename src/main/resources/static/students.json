@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Lê Châu Kiệt",
+    "gender": true,
+    "marks": 10,
+    "contact": {
+      "email": "kle121@gmail.com",
+      "phone": "0987654321",
+      "address": "Hcm"
+    },
+    "subject": ["web205", "sof3031"]
+  },
+  {
+    "name": "Nguyễn Văn A",
+    "gender": true,
+    "marks": 8.2,
+    "contact": {
+      "email": "nva123@gmail.com",
+      "phone": "0912345678",
+      "address": "Hanoi"
+    },
+    "subject": ["math101"]
+  },
+  {
+    "name": "Trần Thị B",
+    "gender": false,
+    "marks": 6.8,
+    "contact": {
+      "email": "ttb456@gmail.com",
+      "phone": "0923456789",
+      "address": "Danang"
+    },
+    "subject": ["chem301", "bio102", "bio103"]
+  },
+  {
+<<<<<<< HEAD
+    "name": "phạm văn C",
+=======
+    "name": "phạm văn c",
+>>>>>>> 40db36aab9987a4fbd7f801d870aeafedbbe9a68
+    "gender": true,
+    "marks": 7.0,
+    "contact": {
+      "email": "pvc789@gmail.com",
+      "phone": "0934567890",
+      "address": "Hcm"
+    },
+    "subject": ["eng104", "hist202"]
+  }
+
+]

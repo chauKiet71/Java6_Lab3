@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns="http://www.thymeleaf.org" th:replace="~{/layout/layout::dynamic(~{::body})}">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h3>Data Binding</h3>
+    <form action="/validation/validate" method="post" th:object="${sv}">
+        <input th:field="*{email}" placeholder="Email address ?">
+        <i th:errors="*{email}"></i><br>
+        <input th:field="*{fullName}" placeholder="Fullname ?">
+        <i th:errors="*{fullName}"></i><br>
+        <input th:field="*{marks}" placeholder="Marks ?">
+        <i th:errors="*{marks}"></i><br>
+        <input th:field="*{gender}" th:value="true" type="radio">Male
+        <input th:field="*{gender}" th:value="false" type="radio">Female
+        <i th:errors="*{gender}"></i> <br>
+        <select th:field="*{country}">
+            <option value="">Nationality ?</option>
+            <option value="VN">Việt Nam</option>
+            <option value="US">US</option>
+        </select>
+        <i th:errors="*{country}"></i>
+        <hr>
+        <button>Save</button>
+    </form>
+</body>
+</html>

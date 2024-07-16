@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns="http://www.thymeleaf.org"
+      th:fragment="dynamic(view)">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <img th:src="@{/image/33.jpg}" style="width: 150px">
+</header>
+<hr>
+<nav th:insert="~{/layout/menu::navbar}"></nav>
+<hr>
+<main th:replace="${view}"></main>
+<footer>FPT Polyechnic</footer>
+</body>
+</html>
